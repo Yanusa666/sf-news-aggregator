@@ -1,0 +1,14 @@
+{
+  "http_server": {
+    "listen_address": "0.0.0.0:8001"
+  },
+  "log_level": "debug",
+  "postgres": {
+    "URI": "postgresql://username:password@127.0.0.1:5432/news?pool_min_conns=32&pool_max_conns=64"
+  },
+  "rss": [
+    "https://habr.com/ru/rss/hub/go/all/?fl=ru",
+    "https://habr.com/ru/rss/best/daily/?fl=ru"
+  ],
+  "request_period": 10
+}
